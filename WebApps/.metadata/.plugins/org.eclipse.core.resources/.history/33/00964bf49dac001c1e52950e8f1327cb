@@ -1,0 +1,31 @@
+package com.sushovan;
+import java.io.PrintWriter;
+
+import javax.servlet.*;
+public class SecondServlet implements Servlet {
+	public void init(ServletConfig config) throws ServletException{
+		
+	}
+	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException{
+		res.setContentType("text/html");
+		PrintWriter pw = res.getWriter();
+		int x = Integer.parseInt(req.getParameter("num"));
+		pw.println("<h1>printing your pattern</h1>");
+		for(int i=1 ; i<=x ; i++) {
+			for(int j=x-1 ; j<=0 ; j) {
+				pw.println("<h1> </h1>");
+			}
+			for(int j=1 ; j<=x ; j++) {
+				pw.println("<h1>"+x+"</h1>");
+			}
+		}
+	}
+	public void destroy()
+	public ServletConfig getServletConfig() {
+		return null;
+	}
+	public String getServletInfo() {
+		return "developed by x";
+	}
+
+}

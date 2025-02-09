@@ -1,0 +1,37 @@
+127.0.0.1 - - [03/Sep/2022:22:56:21 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:56:21 +0530] "GET /LoginAplication/welcome.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:56:21 +0530] "GET /LoginAplication/LogIn.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:56:21 +0530] "GET /LoginAplication/image/logo.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:56:21 +0530] "GET /LoginAplication/image/bulb.gif HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:56:21 +0530] "GET /LoginAplication/image/book.gif HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:56:21 +0530] "GET /LoginAplication/image/background.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:56:22 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:56:27 +0530] "GET /LoginAplication/LogIn.html? HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:56:56 +0530] "POST /LoginAplication/log HTTP/1.1" 200 295
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:57:07 +0530] "POST /LoginAplication/log HTTP/1.1" 200 295
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:57:17 +0530] "POST /LoginAplication/log HTTP/1.1" 200 682
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:57:17 +0530] "GET /LoginAplication/image/welcome2.gif HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:57:29 +0530] "GET /LoginAplication/StudentDashboard.html?submit.x=148&submit.y=37 HTTP/1.1" 200 596
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:57:31 +0530] "POST /LoginAplication/StudentCourse.html HTTP/1.1" 200 871
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:57:34 +0530] "POST /LoginAplication/SelectTopic HTTP/1.1" 200 781
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:57:34 +0530] "GET /LoginAplication/image/computerScience.gif HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:57:40 +0530] "POST /LoginAplication/SelectTopic HTTP/1.1" 200 716
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:57:40 +0530] "GET /LoginAplication/image/math2.gif HTTP/1.1" 200 1732301
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:57:47 +0530] "POST /LoginAplication/SelectTopic HTTP/1.1" 200 784
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:57:47 +0530] "GET /LoginAplication/image/physics.gif HTTP/1.1" 200 46412
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:57:55 +0530] "POST /LoginAplication/SelectTopic HTTP/1.1" 200 847
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:57:55 +0530] "GET /LoginAplication/image/chem.gif HTTP/1.1" 200 1848083
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:07 +0530] "POST /LoginAplication/SelectTopic HTTP/1.1" 200 784
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:15 +0530] "POST /LoginAplication/SelectTopic HTTP/1.1" 200 781
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:19 +0530] "POST /LoginAplication/bookDashboard HTTP/1.1" 200 2115
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:19 +0530] "GET /LoginAplication/test.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:19 +0530] "GET /LoginAplication/image/software_engineering.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:19 +0530] "GET /LoginAplication/image/swwww.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:19 +0530] "GET /LoginAplication/image/ppp.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:19 +0530] "GET /LoginAplication/image/clean2.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:19 +0530] "GET /LoginAplication/image/soft.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:30 +0530] "POST /LoginAplication/BookDownload HTTP/1.1" 200 907
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:48 +0530] "-" 400 2222
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:48 +0530] "-" 400 2124
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:48 +0530] "-" 400 2234
+0:0:0:0:0:0:0:1 - - [03/Sep/2022:22:58:48 +0530] "-" 400 2222

@@ -1,0 +1,76 @@
+package com.sushovan;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.PreparedStatement;
+import java.util.List;
+
+public class ProductDAOImpl implements ProductDAO 
+{
+	public int insert(Product p)
+	{
+		Connection con=null;
+		PreparedStatement pst=null;
+		String query="INSERT INTO product VALUES(?,?,?)";
+		int no=0;
+		try
+		{
+			con=DBUtility.getConn();
+			pst=con.prepareStatement(query);
+			pst.setInt(1, p.getPid());
+			pst.setString(2, p.getPname());
+			pst.setDouble(3,p.getPrice());
+			no=pst.executeUpdate();
+		}
+		catch(ClassNotFoundException | SQLException ex)
+		{
+			ex.printStackTrace();
+		}
+		finally
+		{
+			con=null;
+		}
+		return no;
+	}
+	public int update(Product p)
+	{
+		Connection con=null;
+		PreparedStatement pst=null;
+		String query="UPDATE product SET PNAME = ?, PRICE = ? WHERE PID = ?;";
+		int no=0;
+		try
+		{
+			con=DBUtility.getConn();
+			pst=con.prepareStatement(query);
+			pst.setInt(1, p.getPid());
+			pst.setString(2, p.getPname());
+			pst.setDouble(3,p.getPrice());
+			no=pst.executeUpdate();
+		}
+		catch(ClassNotFoundException | SQLException ex)
+		{
+			ex.printStackTrace();
+		}
+		finally
+		{
+			con=null;
+		}
+		return no;
+	}
+	public boolean deleteProductById(int pid)
+	{
+		return false;
+	}
+	public void deleteAllProducts()
+	{
+		
+	}
+	public Product searchProductById(int pid)
+	{
+		return null;
+	}
+	public List<Product> searchAllProduct()
+	{
+		return null;
+	}
+}

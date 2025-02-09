@@ -1,0 +1,19 @@
+package com.sushovan;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.annotation.*;
+import java.io.*;
+
+@WebServlet("/testn")
+public class test3 extends HttpServlet {
+	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException{
+		res.setContentType("text/html");
+		PrintWriter pw = res.getWriter();
+		pw.println("<h1> this is the first servlet</h1>");
+		//creating request dispatcher object
+		RequestDispatcher rd = req.getRequestDispatcher("/testn.jsp");
+		rd.include(req,res);
+		pw.println("<h1> this is the first servlet</h1>");
+	}	
+}

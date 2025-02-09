@@ -1,0 +1,6 @@
+127.0.0.1 - - [14/Jan/2024:18:25:50 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [14/Jan/2024:18:25:50 +0530] "GET /LoginAplication/LogIn.html HTTP/1.1" 200 907
+0:0:0:0:0:0:0:1 - - [14/Jan/2024:18:25:51 +0530] "GET /LoginAplication/LogIn.css HTTP/1.1" 200 1946
+0:0:0:0:0:0:0:1 - - [14/Jan/2024:18:25:51 +0530] "GET /LoginAplication/image/logo.jpg HTTP/1.1" 200 3325
+0:0:0:0:0:0:0:1 - - [14/Jan/2024:18:25:51 +0530] "GET /LoginAplication/image/background.jpg HTTP/1.1" 200 6098444
+0:0:0:0:0:0:0:1 - - [14/Jan/2024:18:25:51 +0530] "GET /favicon.ico HTTP/1.1" 404 762

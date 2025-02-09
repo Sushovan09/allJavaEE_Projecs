@@ -1,0 +1,11 @@
+package com.sushovan;
+
+public interface ProductDAO 
+{
+	int insert(Product p);
+	int update(Product p);
+	boolean deleteProductById(int pid);
+	boolean deleteAllProducts();
+	Product searchProductById(int pid);
+	Product[] searchAllProduct();
+}
